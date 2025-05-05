@@ -1,0 +1,6 @@
+{
+  "name": "FlappyUnicorn-Go",
+  "image": "mcr.microsoft.com/devcontainers/go:1.22",   // base ufficiale Go
+  "forwardPorts": [8080],                               // porta per il web preview
+  "postCreateCommand": "go install github.com/hajimehoshi/wasmserve@latest"
+}
